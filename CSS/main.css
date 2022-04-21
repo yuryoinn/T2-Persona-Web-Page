@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #000;
+}
+
+/* Reset Css */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+input,
+textarea {
+    font-family: 'DM Sans',  sans-serif;
+    font-size: 16px;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+    outline: none;
+    box-shadow: none;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #2b292d;
+    letter-spacing: -0.01em;
+}
+
+/* Custom Grid System - Fix container width */
+
+.container {
+    max-width: 1200px;
+}
+
+/* Landing */
+
+.heading {
+    display: flex;
+    margin-top: 80px;
+}
+
+.landing-title {
+    width: 585px;
+}
+
+.landing-desc {
+    width: 585px;
+}
+
+.landing-desc p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.landing-desc p:nth-child(1) {
+    color: #F95700;
+}
+
+.navigation {
+    margin-top: 30px;
+}
+
+.nav-img1 {
+    width: 585px;
+}
+
+.nav-img1 span {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+
+.img-wrap {
+    display: flex;
+ }
+
+ .nav-img2 span {
+     display: block;
+     font-size: 18px;
+     font-weight: 700;
+     color: #fff;
+     position: absolute;
+     top: 60px;
+     right: 500px;
+ }
+
+ .nav-img3 span {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 410px;
+    right: 510px;
+ }
+
+ .outro {
+     margin-top: 30px;
+ }
+
+ .outro h2 {
+     font-size: 24px;
+     font-weight: 700;
+     margin-bottom: 8px;
+     color: #fff;
+ }
+
+ .outro p {
+     font-size: 12px;
+     font-weight: 300;
+     margin-bottom: 5px;
+     color: #fff;
+ }
+
+ #sns-img {
+     position: absolute;
+     bottom: 28px;
+     left: 60px;
+ }
+

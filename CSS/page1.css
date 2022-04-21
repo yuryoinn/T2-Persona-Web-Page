@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #000;
+    height: 2000px;
+}
+
+/* Reset Css */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+input,
+textarea {
+    font-family: 'DM Sans',  sans-serif;
+    font-size: 16px;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+    outline: none;
+    box-shadow: none;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #2b292d;
+    letter-spacing: -0.01em;
+}
+
+/* Custom Grid System - Fix container width */
+
+.container {
+    max-width: 1200px;
+}
+
+/* Header */
+
+.heading {
+    display: flex;
+    margin-top: 80px;
+}
+
+.landing-title {
+    width: 585px;
+}
+
+.landing-nav {
+    width: 585px;
+}
+
+.landing-nav a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.landing-nav nav {
+    margin-top: 15px;
+}
+
+.nav-wrap {
+    display: flex;
+}
+
+.nav-wrap li {
+    margin-left: 43px;
+    margin-right: 100px;
+}
+
+.nav-wrap li:nth-child(3) {
+    margin-right: 0;
+}
+
+/* Section */
+
+.section-content {
+    height: 780px;
+}
+
+.section-img1 img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.section-desc1 {
+    margin-bottom: 120px;
+}
+
+.section-desc1 p {
+    font-size: 23px;
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    top: 457px;
+    left: 520px;
+    text-align: center;
+}
+
+.section-desc1 p:nth-child(2) {
+    font-size: 28px;
+    font-weight: 700;
+    top: 520px;
+    left: 440px;
+}
+
+.section-img2 {
+    width: 585px;
+}
+
+.section-wrap {
+    display: flex;
+}
+
+.section-desc2 {
+    padding-top: 75px;
+    padding-left: 15px;
+}
+
+.section-desc2 p {
+    font-size: 23px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.section-desc2 p:nth-child(2) {
+    font-size: 30px;
+    color: #EE6B2D;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.section-desc2 p:nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+
+.section-desc3 {
+    width: 585px;
+    padding-top: 75px;
+    padding-left: 30px;
+}
+
+.section-desc3 p {
+    font-size: 23px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.section-desc3 p:nth-child(2) {
+    font-size: 30px;
+    color: #EE6B2D;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.section-desc3 p:nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.section-img3 {
+    width: 585px;
+}
+
+/* footer */
+
+.outro {
+    border-top: 1px solid gray;
+    margin-top: 210px;
+    padding-left: 30px;
+} 
+
+.outro h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.outro p {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+#sns-img {
+    position: absolute;
+    bottom: 105px;
+    left: 94px;
+}
+
+
+
+/* button */
+
+.fill-button1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 38px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: -0.05em;
+    color: #000;
+    background-color: #fff;
+    position: absolute;
+    top: 1115px;
+    right: 482px;
+}
+
+.fill-button1:hover {
+    background-color: #EE6B2D;
+    color: #000;
+}
+
+.fill-button2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 38px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: -0.05em;
+    color: #000;
+    background-color: #fff;
+    position: absolute;
+    bottom: 457px;
+    left: 47px;
+}
+
+.fill-button2:hover {
+    background-color: #EE6B2D;
+    color: #000;
+}
+
+/* mouse hover */
+
+.nav-wrap li a:hover {
+    color: #EE6B2D;
+}
+
+/* scrolltop */
+
+#scrollTop {
+    width: 50px;
+    height: 50px;
+    background-color: #A2A2A1;
+    border-radius: 50%;
+    background-image: url(/assets/img/arrow-up.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 100px;
+    bottom: 70px;
+    cursor: pointer;
+}
+
+#scrollTop:hover {
+    background-color: #EE6B2D;
+}
+

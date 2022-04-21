@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T2 Promotion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/grid.min.css">
+    <link rel="stylesheet" href="./CSS/page1.css">
+    <script src="./Javascript/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header class="heading">
+                    <h1 class="landing-title">
+                        <a href="./index.html">
+                            <img src="./assets/img/Logo.png" alt="">
+                        </a>
+                    </h1>
+                    <div class="landing-nav">
+                        <nav>
+                            <ul class="nav-wrap">
+                                <li>
+                                    <a href="./page1.html">Brand Story</a>
+                                </li>
+                                <li>
+                                    <a href="./page2.html">Line Up</a>
+                                </li>
+                                <li>
+                                    <a href="./page3.html">Guide</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+            </div>
+            <div class="col-12">
+                <div class="section-content">
+                    <section>
+                        <div class="section-img1">
+                            <img src="./assets/img/brandstory1.png" alt="">
+                        </div> 
+                        <div class="section-desc1">
+                            <p>The T2 Purpose</p>
+                            <p>
+                                차를 사랑하는 세대를 만들어<br>
+                                세상을 영원히 하나로 묶는 것
+                            </p>
+                        </div>
+                    </section>
+                </div>
+                <div class="section-content">
+                    <section class="section-wrap">
+                        <div class="section-img2">
+                            <img src="./assets/img/brandstory2.png" alt="">
+                        </div>
+                        <div class="section-desc2">
+                            <p>Our Values</p>
+                            <p>
+                                The whole leaf and<br>
+                                nothing but the leaf
+                            </p>
+                            <p>
+                                T2는 맛있는 차 한잔을 제공하기 위해 최고의 품질의 차를 찾는 여행을 떠납니다<br>
+                                최고 품질의 차를 제공하는데 있어 잎부터 찻잔까지 지름길은 없습니다.
+                            </p>
+                        </div>
+                        <div class="fill-button1">
+                            <a href="./page2.html">Line Up</a>
+                        </div>
+                    </section>
+                </div>
+                <div class="section-content">
+                    <section class="section-wrap">
+                        <div class="section-desc3">
+                            <p>T2 People</p>
+                            <p>
+                                Like our teas, our people<br>
+                                are a unique blend
+                            </p>
+                            <p>
+                                T2는 모든 연령, 모든 성별, 모든 문화 그리고 다양한 라이프스타일을<br>
+                                존중하며 이들을 위한 특별한 차를 만드는데 집중합니다.
+                            </p>
+                        </div>
+                        <div class="section-img3">
+                            <img src="./assets/img/brandstory3.png" alt="">
+                        </div>
+                        <div class="fill-button2">
+                            <a href="./page3.html">Guide</a>
+                        </div>
+                    </section>
+                    <footer>
+                        <div class="outro">
+                            <h2>T2</h2>
+                            <p>copyright ⓒ 2022 Kim Hyuntae All right reserved.</p>
+                            <img src="./assets/img/sns.png" alt="" id="sns-img">
+                        </div>
+                        <aside id="scrollTop"></aside>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $("#scrollTop").click(function(){
+            console.log("click");
+            $("html, body").animate({scrollTop: 0}, 1000 );
+        } );
+    </script>
+</body>
+</html>

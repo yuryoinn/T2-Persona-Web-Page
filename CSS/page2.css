@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #000;
+    height: 2500px;
+}
+
+/* Reset Css */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button,
+input,
+textarea {
+    font-family: 'DM Sans',  sans-serif;
+    font-size: 16px;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+    outline: none;
+    box-shadow: none;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    color: #2b292d;
+    letter-spacing: -0.01em;
+}
+
+/* Custom Grid System - Fix container width */
+
+.container {
+    max-width: 1200px;
+}
+
+/* Header */
+
+.heading {
+    display: flex;
+    margin-top: 80px;
+}
+
+.landing-title {
+    width: 585px;
+}
+
+.landing-nav {
+    width: 585px;
+}
+
+.landing-nav a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.landing-nav nav {
+    margin-top: 15px;
+}
+
+.nav-wrap {
+    display: flex;
+}
+
+.nav-wrap li {
+    margin-left: 43px;
+    margin-right: 100px;
+}
+
+.nav-wrap li:nth-child(3) {
+    margin-right: 0;
+}
+
+/* section */
+
+.section-content {
+    height: 780px;
+}
+
+.section-wrap {
+    display: flex;
+    padding-top: 50px;
+}
+
+.section-img1 {
+    width: 585px;
+    margin-top: 150px;
+}
+
+.section-desc1 {
+    width: 585px;
+    margin-top: 170px;
+    padding-top: 65px;
+    padding-left: 80px;
+}
+
+.section-desc1 p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.section-desc1 p:nth-child(2) {
+    font-size: 70px;
+    font-weight: 700;
+    color: #EE6B2D;
+}
+
+.section-desc1 p:nth-child(3) {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.section-img2 {
+    padding-top: 100px;
+}
+
+.section-img2 p {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 792px;
+    left: 20px;
+}
+
+.section-desc2 {
+    display: flex;
+}
+
+.section-desc2 p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-desc2 p:nth-child(1) {
+    margin: 0 90px;
+}
+
+.section-desc2 p:nth-child(2) {
+    margin: 0 115px;
+}
+
+.section-desc2 p:nth-child(3) {
+    margin: 0 95px;
+}
+
+.section-desc2 p span {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.section-img3 {
+    padding-top: 200px;
+}
+
+.section-img3 p {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 1425px;
+    left: 20px;
+}
+
+.section-desc3 {
+    display: flex;
+}
+
+.section-desc3 p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-desc3 p span {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.section-desc3 p:nth-child(1) {
+    margin-left: 95px;
+    margin-right: 90px;
+}
+
+.section-desc3 p:nth-child(2) {
+    margin-left: 100px;
+    margin-right: 95px;
+}
+
+.section-desc3 p:nth-child(3) {
+    margin-left: 75px;
+    margin-right: 50px;
+}
+
+/* footer */
+
+.outro {
+    border-top: 1px solid gray;
+    margin-top: 210px;
+    padding-left: 30px;
+} 
+
+.outro h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.outro p {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+#sns-img {
+    position: absolute;
+    top: 2192px;
+    left: 94px;
+}
+
+/* mouse hover */
+
+.nav-wrap li a:hover {
+    color: #EE6B2D;
+}
+
+/* scrolltop */
+
+#scrollTop {
+    width: 50px;
+    height: 50px;
+    background-color: #A2A2A1;
+    border-radius: 50%;
+    background-image: url(/assets/img/arrow-up.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 100px;
+    bottom: 70px;
+    cursor: pointer;
+}
+
+#scrollTop:hover {
+    background-color: #EE6B2D;
+}

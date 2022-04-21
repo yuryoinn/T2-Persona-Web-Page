@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T2 promotion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/grid.min.css">
+    <link rel="stylesheet" href="./CSS/page2.css">
+    <script src="./Javascript/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header class="heading">
+                    <h1 class="landing-title">
+                        <a href="./index.html">
+                            <img src="./assets/img/Logo.png" alt="">
+                        </a>
+                    </h1>
+                    <div class="landing-nav">
+                        <nav>
+                            <ul class="nav-wrap">
+                                <li>
+                                    <a href="./page1.html">Brand Story</a>
+                                </li>
+                                <li>
+                                    <a href="./page2.html">Line Up</a>
+                                </li>
+                                <li>
+                                    <a href="./page3.html">Guide</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+            </div>
+            <div class="col-12">
+                <div class="section-content">
+                    <section class="section-wrap">
+                        <div class="section-img1">
+                            <img src="./assets/img/lineup.png" alt="">
+                        </div>
+                        <div class="section-desc1">
+                            <p>Tea \</p>
+                            <p>Line Up</p>
+                            <p>
+                                T2의 녹차부터 홍차, 우롱에서 차이,말차 등 모든 차를 소개합니다.<br>
+                                지금 바로 T2에서 세계 최고의 차를 만나보세요
+                            </p>
+                        </div>
+                    </section>
+                </div>
+                <div class="section-content">
+                    <section>
+                        <div class="section-img2">
+                            <p>Black Tea</p>
+                            <img src="./assets/img/french_earlgray.png" alt="">
+                            <img src="./assets/img/chai.png" alt="">
+                            <img src="./assets/img/morning_sunshine.png" alt="">
+                        </div>
+                        <div class="section-desc2">
+                            <p>
+                                French Earl Gray<br>
+                                <span>Black / Afternoon / Sri Lanka</span>
+                            </p>
+                            <p>
+                                Chai<br>
+                                <span>Black / Afternoon / Chai</span>
+                            </p>
+                            <p>
+                                Morning Sunshine<br>
+                                <span>Black / Energy / China</span>
+                            </p>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="section-img3">
+                            <p>Green Tea</p>
+                            <img src="./assets/img/greenrose.png" alt="">
+                            <img src="./assets/img/gunpowder.png" alt="">
+                            <img src="./assets/img/jademoutain.png" alt="">
+                        </div>
+                        <div class="section-desc3">
+                            <p>
+                                Green Rose<br>
+                                <span>Green / Afternoon / Japan</span>
+                            </p>
+                            <p>
+                                Gun Powder<br>
+                                <span>Green / Afternoon / Stress Relief</span>
+                            </p>
+                            <p>
+                                Jade Mountain<br>
+                                <span>Green / Afternoon / Immunity</span>
+                            </p>
+                        </div>
+                    </section>
+                    <footer>
+                        <div class="outro">
+                            <h2>T2</h2>
+                            <p>copyright ⓒ 2022 Kim Hyuntae All right reserved.</p>
+                            <img src="./assets/img/sns.png" alt="" id="sns-img">
+                        </div>
+                        <aside id="scrollTop"></aside>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $("#scrollTop").click(function(){
+            console.log("click");
+            $("html, body").animate({scrollTop: 0}, 1000 );
+        } );
+    </script>
+</body>
+</html>
